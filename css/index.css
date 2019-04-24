@@ -126,10 +126,26 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
   font-family: 'Lato', sans-serif;
 }
-.logo-img {
+.top-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+.top-container .logo-img {
   width: 15rem;
+}
+.flex-prop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 }
