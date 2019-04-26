@@ -191,7 +191,6 @@ body {
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  padding-top: 2rem;
 }
 .top-container .top-content {
   display: -webkit-box;
@@ -203,15 +202,14 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  padding: 0 0 8rem 0;
+  padding-top: 2rem;
 }
 .top-container .top-content h1 {
   font-size: 3rem;
-  align-self: center;
 }
 .top-container .top-content p {
   font-size: 2rem;
-  align-self: center;
+  padding-top: 2rem;
 }
 .top-container .top-content button {
   align-self: center;
@@ -229,13 +227,11 @@ body {
   cursor: pointer;
 }
 .top-container .top-img {
+  align-self: flex-start;
   height: 100%;
   width: 70%;
-  margin-top: 8rem;
   justify-content: center;
   flex-wrap: nowrap;
-  align-self: center;
-  padding-bottom: 8rem;
 }
 .top-container .top-img img {
   max-width: 100%;
@@ -243,7 +239,12 @@ body {
   width: auto;
 }
 .mid-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
   height: 100vh;
+  width: 100%;
 }
 .bot-container {
   height: 100vh;
