@@ -1,14 +1,39 @@
+// Background color
+.background{
+    height: 100%;
+    background: linear-gradient(180deg, #55596d, #bb1330);
+    background-size: 400% 400%;
+    animation: gradientFade 12s ease infinite;
+    display: block;
+}
+
+@keyframes gradientFade{
+    0%{
+        background-position: 47% 0%;
+    }
+
+    50%{
+        background-position: 54% 100%;
+    }
+
+    100%{
+        background-position: 47% 0%;
+    }
+}
+
+
+
+// Header Content
 .header-container {
     .flex-prop;
     align-items: center;
-    background-color:#bb1333;
     flex-direction: row;
+    height: 8rem;
     justify-content: space-between;
-    margin-top: 1.5rem 0.5rem 0 1.5rem;
 
-    .lambda-logo .logo-img {
+    .product-queue-logo .logo-img {
         margin: 3rem;
-        width: 15rem;
+        width: 25rem;
     }
 
     .nav-bar {
@@ -16,36 +41,88 @@
         justify-content: space-around;
         list-style: none;
         width: 40rem;
+
+        li {
+            color: white;
+        }
     }
 }    
 
+// Top content
 .top-container {
     .flex-prop;
-    // background-color: #bb1333;
-    background: rgb(0,32,112);
-    background: linear-gradient(0deg, rgba(0,32,112,1) 0%, rgba(187,19,48,1) 35%);
+    height: calc(100vh - 8rem);
+    width: 100%;
     color: white;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
     padding-top: 2rem;
 
     .top-content {
-        align-self: center;
-        // padding: 0 20rem 0 0;
+        .flex-prop;
+        height: 50%;
+        width: 45%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0 0 8rem 0;
+        
 
         h1 {
-            font-size: 5rem;
-            padding: 0 25rem 1.2rem 0;
+            font-size: 3rem;
+            // margin-top: 1rem;
+            align-self: center;
         }
+
+        p {
+            font-size: 2rem;
+            align-self: center;
+        }
+
+        button {
+            align-self: center;
+            width: 20rem;
+            background-color: #002070;
+            border: none;
+            border-radius: 100rem;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            // display: inline-block;
+            font-size: 1.6rem;
+            font-weight: bold;
+            margin: 3rem;
+            cursor: pointer;
+          }
     }
 
     .top-img {
+        height: 100%;
+        width: 70%;
+        margin-top: 8rem;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-self: center;
+        padding-bottom: 8rem; 
 
-    
-    
         img {
-            height: 60rem;
-            width: 90rem;
+            max-width: 100%;
+            height: auto;
+            width: auto;              
         }
     }
+}
+
+// Middle content
+
+.mid-container {
+    height: 100vh;
+}
+
+// Bottom content
+
+.bot-container {
+    height: 100vh;
 }
