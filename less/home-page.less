@@ -51,8 +51,12 @@
 // Top content
 .top-container {
     .flex-prop;
+    background-image: url("/Img/undraw_group_chat_v059.svg");
+    background-repeat: no-repeat;
+    background-position: center;
     height: calc(100vh - 8rem);
     width: 100%;
+    font-weight: bold;
     color: white;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -63,14 +67,17 @@
         .flex-prop;
         height: 50%;
         width: 45%;
+        line-height: 3.5rem;
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         padding-top: 2rem;
         
 
         h1 {
             font-size: 3rem;
+            text-shadow: 0.2rem 0.2rem black;
             // margin-top: 1rem;
             // align-self: center;
         }
@@ -99,16 +106,17 @@
     }
 
     .top-img {
-        align-self: flex-start;
-        height: 100%;
-        width: 70%;
-        justify-content: center;
-        flex-wrap: nowrap; 
+        // align-self: flex-start;
+        // height: 100%;
+        // width: 70%;
+        // margin: 5rem;
+        // justify-content: center;
+        // flex-wrap: nowrap; 
 
         img {
-            max-width: 100%;
-            height: auto;
-            width: auto;              
+            // max-width: 100%;
+            // height: auto;
+            // width: auto;              
         }
     }
 }
@@ -116,18 +124,49 @@
 // Middle content
 
 .mid-container {
-    color: white;
+    color: black;
     height: 100vh;
     width: 100%;
     padding: 0 15rem;
 
-    .left-mid-content {
+    .top-mid-content {
         .flex-prop;
+        background-image: url("/Img/undraw_upload_87y9.svg");
+        background-repeat: no-repeat;
+        background-size: 30rem 30rem;
+        background-position: 5%;
         height: 33%;
         width: 100%;
         flex-direction: column;
         justify-content: center;
         padding-left: 3rem;
+    }
+
+        .mid-mid-content {
+            .flex-prop;
+            background-image: url("/Img/undraw_file_searching_duff.svg");
+            background-repeat: no-repeat;
+            background-size: 30rem 30rem;
+            background-position: 5%;
+            height: 33%;
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 3rem;
+        }
+
+            .bot-mid-content {
+                .flex-prop;
+                background-image: url("/Img/undraw_filing_system_b5d2.svg");
+                background-repeat: no-repeat;
+                background-size: 30rem 30rem;
+                background-position: 5%;
+                height: 33%;
+                width: 100%;
+                flex-direction: column;
+                justify-content: center;
+                padding-left: 3rem;
+            }
 
         h2 {
             font-size: 2.5rem;
@@ -142,8 +181,6 @@
             padding-bottom: 1rem;
         }
     }
-}
-
 // Bottom content
 
 .bot-container {
@@ -152,16 +189,21 @@
 
     .bot-content {
         .flex-prop;
+        background-image: url('/Img/undraw_setup_wizard_r6mr.svg');
+        background-repeat: no-repeat;
+        background-position: center;
         height: 100%;
         width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        color: white;
+        font-weight: bold;
+        color: black;
 
         h2 {
             align-self: center;
             font-size: 3rem;
+            // padding-top: 25rem;
         }
 
         button {
