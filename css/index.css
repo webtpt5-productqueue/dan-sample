@@ -239,12 +239,27 @@ body {
   width: auto;
 }
 .mid-container {
+  color: white;
+  height: 100vh;
+  width: 100%;
+}
+.mid-container .left-mid-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  height: 100vh;
+  height: 33%;
   width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3rem;
+}
+.mid-container .left-mid-content h2 {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+.mid-container .left-mid-content p {
+  padding-bottom: 1rem;
 }
 .bot-container {
   height: 100vh;
