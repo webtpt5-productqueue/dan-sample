@@ -263,6 +263,39 @@ body {
 }
 .bot-container {
   height: 100vh;
+  width: 100%;
+}
+.bot-container .bot-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+  color: white;
+}
+.bot-container .bot-content h2 {
+  align-self: center;
+  font-size: 3rem;
+}
+.bot-container .bot-content button {
+  align-self: center;
+  width: 20rem;
+  background-color: #002070;
+  border: none;
+  border-radius: 100rem;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 3rem;
+  cursor: pointer;
 }
 .flex-prop {
   display: -webkit-box;
