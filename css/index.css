@@ -258,6 +258,9 @@ body {
   font-size: 2.5rem;
   padding-bottom: 1rem;
 }
+.mid-container .left-mid-content .icon {
+  color: #08addd;
+}
 .mid-container .left-mid-content p {
   padding-bottom: 1rem;
 }
