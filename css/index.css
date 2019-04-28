@@ -292,32 +292,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 50vh;
   width: 100%;
-  background-image: url('/Img/undraw_setup_wizard_r6mr.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
-}
-.bot-container .bot-img {
-  height: 25%;
-  width: 25%;
-  background-color: #002070;
-}
-.bot-container .img-one {
-  align-self: flex-start;
 }
 .bot-container .bot-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  height: 25%;
-  width: 25%;
-  background-color: rgba(85, 89, 109, 0.5);
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 25%;
+  width: 25%;
+  flex-direction: column;
   font-weight: bold;
   color: white;
 }
@@ -339,6 +326,32 @@ body {
   font-weight: bold;
   margin: 2rem;
   cursor: pointer;
+}
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  height: 12rem;
+  color: white;
+}
+footer .product-queue-logo .logo-img {
+  margin: 3rem;
+  width: 25rem;
+}
+footer .nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  width: 40rem;
+}
+footer .nav-bar li {
+  color: white;
 }
 .flex-prop {
   display: -webkit-box;
