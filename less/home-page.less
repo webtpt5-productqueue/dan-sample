@@ -53,31 +53,33 @@
     .flex-prop;
     background-image: url("/Img/undraw_group_chat_v059.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 40rem 50%;
+    background-size: 75% 100%;
     height: calc(100vh - 8rem);
     width: 100%;
     font-weight: bold;
     color: white;
     flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     // padding-top: 2rem;
 
     .top-content {
         .flex-prop;
-        height: 50%;
-        width: 45%;
+        height: 30rem;
+        width: 50rem;
         line-height: 3.5rem;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding-top: 2rem;
+        margin-top: 10rem;
         
 
         h1 {
             font-size: 3rem;
-            text-shadow: 0.2rem 0.2rem black;
+            text-shadow: 0.1rem 0.1rem black;
             // margin-top: 1rem;
             // align-self: center;
         }
@@ -85,6 +87,8 @@
         p {
             font-size: 2rem;
             padding-top: 2rem;
+            text-shadow: 0.1rem 0.1rem black;
+
             // align-self: center;
         }
 
@@ -131,10 +135,10 @@
 
     .top-mid-content {
         .flex-prop;
-        background-image: url("/Img/undraw_upload_87y9.svg");
-        background-repeat: no-repeat;
-        background-size: 30rem 30rem;
-        background-position: 5%;
+        // background-image: url("/Img/undraw_upload_87y9.svg");
+        // background-repeat: no-repeat;
+        // background-size: 30rem 30rem;
+        // background-position: 5%;
         height: 33%;
         width: 100%;
         flex-direction: column;
@@ -144,10 +148,10 @@
 
         .mid-mid-content {
             .flex-prop;
-            background-image: url("/Img/undraw_file_searching_duff.svg");
-            background-repeat: no-repeat;
-            background-size: 30rem 30rem;
-            background-position: 5%;
+            // background-image: url("/Img/undraw_file_searching_duff.svg");
+            // background-repeat: no-repeat;
+            // background-size: 30rem 30rem;
+            // background-position: 5%;
             height: 33%;
             width: 100%;
             flex-direction: column;
@@ -157,10 +161,10 @@
 
             .bot-mid-content {
                 .flex-prop;
-                background-image: url("/Img/undraw_filing_system_b5d2.svg");
-                background-repeat: no-repeat;
-                background-size: 30rem 30rem;
-                background-position: 5%;
+                // background-image: url("/Img/undraw_filing_system_b5d2.svg");
+                // background-repeat: no-repeat;
+                // background-size: 30rem 30rem;
+                // background-position: 5%;
                 height: 33%;
                 width: 100%;
                 flex-direction: column;
@@ -184,21 +188,38 @@
 // Bottom content
 
 .bot-container {
+    .flex-prop;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 100%;
+    background-image: url('/Img/undraw_setup_wizard_r6mr.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+    .bot-img {
+        height: 25%;
+        width: 25%;
+        background-color: #002070;
+    }
+
+    .img-one {
+        align-self: flex-start;
+    }
 
     .bot-content {
         .flex-prop;
-        background-image: url('/Img/undraw_setup_wizard_r6mr.svg');
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 100%;
-        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 25%;
+        width: 25%;
+        background-color: rgba(85, 89, 109, 0.5);
         flex-direction: column;
         justify-content: center;
         align-items: center;
         font-weight: bold;
-        color: black;
+        color: white;
 
         h2 {
             align-self: center;
@@ -219,7 +240,7 @@
             // display: inline-block;
             font-size: 1.6rem;
             font-weight: bold;
-            margin: 3rem;
+            margin: 2rem;
             cursor: pointer;
         }
     }
