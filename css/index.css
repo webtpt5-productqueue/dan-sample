@@ -132,6 +132,7 @@ table {
 html {
   font-size: 62.5%;
   font-family: 'Lato', sans-serif;
+  list-style: none;
 }
 body {
   font-size: 1.8rem;
@@ -409,34 +410,64 @@ footer .nav-bar li {
   margin: 3rem;
   cursor: pointer;
 }
-.bot-container {
+.about-bot-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
+  justify-content: flex-start;
+  height: 225rem;
   width: 100%;
+  padding: 0 15rem 0 15rem;
 }
-.bot-container .bot-content {
+.about-bot-container .about-bot-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.about-bot-container .about-bot-content .team-member {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 25%;
-  width: 25%;
-  flex-direction: column;
-  font-weight: bold;
-  color: white;
+  height: 20rem;
+  width: 25rem;
+  background-color: lightgrey;
 }
-.bot-container .bot-content h2 {
+.about-bot-container .about-bot-content .team-member img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 20rem;
+  margin-bottom: 2rem;
+}
+.about-bot-container .about-bot-content h2 {
   align-self: center;
-  font-size: 3rem;
+  font-size: 2rem;
 }
-.bot-container .bot-content button {
+.about-bot-container .about-bot-content p {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+}
+.about-bot-container .about-bot-content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 15rem;
+}
+.about-bot-container .about-bot-content ul .icons {
+  color: #55596d;
+  margin: 2rem 0 8rem 0;
+}
+.about-bot-container .about-bot-content button {
   align-self: center;
   width: 20rem;
   background-color: #002070;
