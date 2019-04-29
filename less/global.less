@@ -10,3 +10,51 @@ html {
 body {
     font-size: 1.8rem;
 }
+
+// Background color
+.background{
+    height: 100%;
+    background: linear-gradient(180deg, #55596d, #bb1330);
+    background-size: 400% 400%;
+    animation: gradientFade 12s ease infinite;
+    display: block;
+}
+
+@keyframes gradientFade{
+    0%{
+        background-position: 47% 0%;
+    }
+
+    50%{
+        background-position: 54% 100%;
+    }
+
+    100%{
+        background-position: 47% 0%;
+    }
+}
+
+// Header Content
+.header-container {
+    .flex-prop;
+    align-items: center;
+    flex-direction: row;
+    height: 8rem;
+    justify-content: space-between;
+
+    .product-queue-logo .logo-img {
+        margin: 3rem;
+        width: 25rem;
+    }
+
+    .nav-bar {
+        .flex-prop;
+        justify-content: space-around;
+        list-style: none;
+        width: 40rem;
+
+        li {
+            color: white;
+        }
+    }
+}   
