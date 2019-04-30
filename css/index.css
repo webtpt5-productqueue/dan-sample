@@ -419,6 +419,34 @@ footer .nav-bar li {
   height: 225rem;
   width: 100%;
   padding: 0 15rem 0 15rem;
+  margin: 10rem 0;
+}
+.about-bot-container .team-bios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  justify-content: flex-start;
+  height: 225rem;
+  width: 100rem;
+  margin-right: 10rem;
+}
+.about-bot-container .team-bios .team-bio p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20.15rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 0 2rem 0 5rem;
+  margin: 6rem;
+  line-height: 2rem;
 }
 .about-bot-container .about-bot-content {
   display: -webkit-box;
@@ -427,6 +455,8 @@ footer .nav-bar li {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-left: 5rem;
+  width: 25rem;
 }
 .about-bot-container .about-bot-content .team-member {
   display: -webkit-box;
