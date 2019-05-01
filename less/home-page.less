@@ -62,10 +62,9 @@
     .flex-prop;
     justify-content: center;
     flex-direction: column;
-    margin: 9rem 0 0 16rem;
     background-color: rgba(0, 0, 0, 0.3);
     height: 80vh;
-    width: 80%;
+    width: 100%;
 
     .mid-content {
         .flex-prop;
@@ -112,11 +111,65 @@
         .flex-prop;
         justify-content: center;
         align-items: center;
-        height: 25%;
-        width: 25%;
+        height: 100%;
+        width: 100%;
         flex-direction: column;
         font-weight: bold;
         color: white;
+
+        .customers {
+            .flex-prop;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .customer-quotes {
+                
+
+                .quote-item {
+                    display: none;
+
+            }
+
+            .selected {
+                .flex-prop;
+                justify-content: center;
+                align-items: center;
+                
+                    .quote {
+                        .flex-prop;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: rgba(0, 0, 0, 0.3);
+                        height: 10rem;
+                        width: 80rem;
+                
+                        p {
+                            padding: 0 5rem;
+                        }
+                    }
+            }
+
+
+            .customer-links {
+                .flex-prop;
+                flex-direction: row;
+                justify-content: space-around;
+                align-self: flex-end;
+                height: auto;
+                width: 100%;
+                padding: 0 25rem;
+
+                .customer{
+                
+                    img {
+                    height: 10rem;
+                    width: 10rem;
+                    border-radius: 20rem; 
+                    }
+             }
+        }
+    }
 
         h2 {
             align-self: center;
@@ -141,3 +194,4 @@
     }
 }
 
+}

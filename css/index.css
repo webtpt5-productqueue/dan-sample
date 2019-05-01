@@ -193,7 +193,7 @@ footer {
   display: -webkit-flex;
   display: flex;
   justify-content: space-between;
-  height: 15rem;
+  height: 0;
   color: white;
 }
 footer .product-queue-logo .logo-img {
@@ -277,10 +277,9 @@ footer .nav-bar li {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 9rem 0 0 16rem;
   background-color: rgba(0, 0, 0, 0.3);
   height: 80vh;
-  width: 80%;
+  width: 100%;
 }
 .mid-container .mid-content {
   display: -webkit-box;
@@ -328,17 +327,68 @@ footer .nav-bar li {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 25%;
-  width: 25%;
+  height: 100%;
+  width: 100%;
   flex-direction: column;
   font-weight: bold;
   color: white;
 }
-.bot-container .bot-content h2 {
+.bot-container .bot-content .customers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bot-container .bot-content .customers .customer-quotes .quote-item {
+  display: none;
+}
+.bot-container .bot-content .customers .customer-quotes .selected {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bot-container .bot-content .customers .customer-quotes .selected .quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 10rem;
+  width: 80rem;
+}
+.bot-container .bot-content .customers .customer-quotes .selected .quote p {
+  padding: 0 5rem;
+}
+.bot-container .bot-content .customers .customer-quotes .customer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: flex-end;
+  height: auto;
+  width: 100%;
+  padding: 0 25rem;
+}
+.bot-container .bot-content .customers .customer-quotes .customer-links .customer img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 20rem;
+}
+.bot-container .bot-content .customers h2 {
   align-self: center;
   font-size: 3rem;
 }
-.bot-container .bot-content button {
+.bot-container .bot-content .customers button {
   align-self: center;
   width: 20rem;
   background-color: #002070;
@@ -516,4 +566,11 @@ footer .nav-bar li {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+}
+.select-mixin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
 }
