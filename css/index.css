@@ -193,7 +193,7 @@ footer {
   display: -webkit-flex;
   display: flex;
   justify-content: space-between;
-  height: 0;
+  height: 15rem;
   color: white;
 }
 footer .product-queue-logo .logo-img {
@@ -330,8 +330,12 @@ footer .nav-bar li {
   height: 100%;
   width: 100%;
   flex-direction: column;
-  font-weight: bold;
   color: white;
+}
+.bot-container .bot-content .customer-title {
+  font-size: 3rem;
+  text-shadow: 0.1rem 0.1rem black;
+  margin: 7rem;
 }
 .bot-container .bot-content .customers {
   display: -webkit-box;
@@ -358,14 +362,23 @@ footer .nav-bar li {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.3);
-  height: 10rem;
+  margin-bottom: 3rem;
+  height: 20rem;
   width: 80rem;
 }
 .bot-container .bot-content .customers .customer-quotes .selected .quote p {
+  line-height: 2.5rem;
   padding: 0 5rem;
+}
+.bot-container .bot-content .customers .customer-quotes .selected .quote .name-company {
+  font-style: italic;
+  font-weight: 300;
+  align-self: flex-end;
+  margin-top: 4rem;
 }
 .bot-container .bot-content .customers .customer-quotes .customer-links {
   display: -webkit-box;
@@ -377,7 +390,6 @@ footer .nav-bar li {
   align-self: flex-end;
   height: auto;
   width: 100%;
-  padding: 0 25rem;
 }
 .bot-container .bot-content .customers .customer-quotes .customer-links .customer img {
   height: 10rem;
