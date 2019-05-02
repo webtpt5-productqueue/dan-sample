@@ -79,23 +79,25 @@ a {
 // Footer Section
 
 footer {
-    .flex-prop;
-    justify-content: space-between;
-    height: 10rem;
     color: white;
 
-    @media @mobile {
-        // padding-top: 3rem;
-        flex-direction: column;
-        justify-content: center;
-        align-items: baseline;
-    }
+    .foot-bar {
+        .flex-prop;
+         justify-content: space-between;
+         margin-bottom: 2rem;
+
+         @media @mobile {
+            flex-direction: column;
+            justify-content: center;
+            align-items: baseline;
+        }
+    
 
     .product-queue-logo{
-        padding-top: 2rem;
         width: 100%;
 
         @media @mobile {
+            padding-top: 2rem; 
             text-align: center;
             width: 100%;
             order: 2;
@@ -125,8 +127,10 @@ footer {
                 color: white;
             }
         }
+    }
+        .copyright {
+            padding-bottom: 2rem; 
+            text-align: center;
+        }
 }
 
-copyright {
-    text-align: center;
-}
