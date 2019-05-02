@@ -13,19 +13,28 @@
     justify-content: flex-start;
     align-items: center;
     
+    // added media query to remove img and center top content.
+    @media @small-desktop {
+        background-image: none;
+        justify-content: center;
+    }
 
     .top-content {
         .flex-prop;
         height: 30rem;
         width: 50rem;
+        text-align: center;
         line-height: 3.5rem;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding-top: 2rem;
-        margin: 0 0 0 6rem;
+        margin-left: 6rem;
         
+        @media @small-desktop {
+            margin: 0;
+        }
 
         h1 {
             font-size: 3rem;
@@ -70,8 +79,14 @@
         .flex-prop;
         height: 33%;
         width: 100%;
+        text-align: center;
         justify-content: center;
         padding-top: 5rem;
+
+        @media @tablet {
+            padding: 0 10rem;
+            align-items: center;
+        }
 
         .title-header {
             color: white;
@@ -120,6 +135,11 @@
             font-size: 3rem;
             text-shadow: 0.1rem 0.1rem black;
             margin: 7rem;
+            text-align: center;
+
+            @media @small-tablet {
+                padding-bottom: 8rem;
+            }
         }
 
         .customers {
