@@ -406,6 +406,9 @@ footer .copyright {
   text-align: center;
 }
 @media (max-width: 752px) {
+  .bot-container .bot-content .customer-title {
+    padding-bottom: 8rem;
+  }
 }
 @media (max-width: 500px) {
   .bot-container .bot-content .customer-title {
