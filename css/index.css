@@ -668,7 +668,7 @@ footer .copyright {
 }
 .about-bot-container .about-bot-content .team-member img {
   height: 15rem;
-  width: 15rem;
+  width: auto;
   border-radius: 20rem;
   margin-bottom: 2rem;
 }
