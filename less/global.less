@@ -49,6 +49,10 @@ a {
     height: 8rem;
     justify-content: space-between;
 
+    @media @mobile {
+        flex-direction: column;
+    }
+
     .product-queue-logo .logo-img {
         margin: 3rem;
         width: 25rem;
@@ -58,8 +62,13 @@ a {
         .flex-prop;
         justify-content: space-around;
         list-style: none;
-        width: 40rem;
+        width: 100%;
+        max-width: 36rem;
         padding-right: 3rem;
+
+        @media @mobile {
+            padding: 0;
+        }
 
         li {
             color: white;
@@ -72,12 +81,29 @@ a {
 footer {
     .flex-prop;
     justify-content: space-between;
-    height: 15rem;
+    height: 10rem;
     color: white;
 
-    .product-queue-logo .logo-img {
-        margin: 5rem 0 0 3rem;
-        width: 25rem;
+    @media @mobile {
+        // padding-top: 3rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .product-queue-logo{
+        padding-top: 2rem;
+        width: 100%;
+
+        @media @mobile {
+            text-align: center;
+            width: 100%;
+            order: 2;
+        }
+
+        .logo-img {
+            max-width: 25rem;
+        }
     }
 
         .nav-bar {
@@ -85,11 +111,22 @@ footer {
             align-items: center;
             justify-content: space-around;
             list-style: none;
-            width: 40rem;
+            width: 100%;
+            max-width: 36rem;
             padding-right: 3rem;
+
+            @media @mobile {
+                max-width: 100%;
+                padding: 0rem;
+                order: 1;
+            }
 
             li {
                 color: white;
             }
         }
+}
+
+copyright {
+    text-align: center;
 }
