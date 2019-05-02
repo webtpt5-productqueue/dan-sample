@@ -11,12 +11,20 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
+
+    @media @small-desktop {
+        background-image: none;
+        justify-content: center;
+        text-align: center;
+        height: 80vh;
+    }
     
 
     .about-top-content {
         .flex-prop;
         height: 30rem;
         width: 50rem;
+        text-align: center;
         line-height: 3.5rem;
         flex-wrap: wrap;
         flex-direction: column;
@@ -24,6 +32,10 @@
         align-items: center;
         padding-top: 2rem;
         margin: 0 0 0 6rem;
+
+        @media @small-desktop {
+            margin: 0;
+        }
         
 
         h1 {
@@ -35,6 +47,11 @@
             font-size: 2rem;
             padding: 2rem 0 0 2rem;
             text-shadow: 0.1rem 0.1rem black;
+
+            @media @small-tablet {
+                padding: 2rem 0 0 0;
+            }
+
         }
 
         button {
@@ -65,14 +82,26 @@
     padding: 0 15rem 0 15rem;
     margin: 10rem 0;
 
+    @media @about-para {
+        width: 100%;
+        justify-content: center;
+    }
+
     .team-bios {
         .flex-prop;
         flex-direction: column;
         align-self: flex-end;
         justify-content: flex-start;
         height: 225rem;
-        width: 100rem;
+        width: 100%;
+        max-width: 100rem;
         margin-right: 10rem;
+
+        @media @about-para {
+            display: none;
+            width: 0%;
+        }
+
 
         .team-bio p {
                 .flex-prop;
@@ -85,7 +114,6 @@
                 padding: 0 2rem 0 5rem;
                 margin: 6rem; 
                 line-height: 2rem;
-
             }
         }
 
@@ -97,6 +125,10 @@
         margin-left: 5rem;
         width: 25rem;
 
+        @media @about-para {
+            margin: 0;
+        }
+
         .team-member {
             .flex-prop;
             flex-direction: column;
@@ -105,6 +137,7 @@
             height: 20rem;
             width: 25rem;
             background-color: lightgrey;
+            color: black;
 
             img {
                 height: 15rem;
@@ -131,6 +164,7 @@
             width: 15rem;
 
             .icons {
+                cursor: pointer;
                 color: #55596d;
                 margin: 2rem 0 8rem 0;
             }

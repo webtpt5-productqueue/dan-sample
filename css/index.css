@@ -231,6 +231,12 @@ footer .nav-bar li {
   justify-content: flex-start;
   align-items: center;
 }
+@media (max-width: 1200px) {
+  .top-container {
+    background-image: none;
+    justify-content: center;
+  }
+}
 .top-container .top-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -238,13 +244,19 @@ footer .nav-bar li {
   display: flex;
   height: 30rem;
   width: 50rem;
+  text-align: center;
   line-height: 3.5rem;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 2rem;
-  margin: 0 0 0 6rem;
+  margin-left: 6rem;
+}
+@media (max-width: 1200px) {
+  .top-container .top-content {
+    margin: 0;
+  }
 }
 .top-container .top-content h1 {
   font-size: 3rem;
@@ -288,8 +300,15 @@ footer .nav-bar li {
   display: flex;
   height: 33%;
   width: 100%;
+  text-align: center;
   justify-content: center;
   padding-top: 5rem;
+}
+@media (max-width: 850px) {
+  .mid-container .mid-content {
+    padding: 0 10rem;
+    align-items: center;
+  }
 }
 .mid-container .mid-content .title-header {
   color: white;
@@ -336,6 +355,12 @@ footer .nav-bar li {
   font-size: 3rem;
   text-shadow: 0.1rem 0.1rem black;
   margin: 7rem;
+  text-align: center;
+}
+@media (max-width: 752px) {
+  .bot-container .bot-content .customer-title {
+    padding-bottom: 8rem;
+  }
 }
 .bot-container .bot-content .customers {
   display: -webkit-box;
@@ -433,6 +458,14 @@ footer .nav-bar li {
   justify-content: flex-start;
   align-items: center;
 }
+@media (max-width: 1200px) {
+  .about-top-container {
+    background-image: none;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+  }
+}
 .about-top-container .about-top-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -440,6 +473,7 @@ footer .nav-bar li {
   display: flex;
   height: 30rem;
   width: 50rem;
+  text-align: center;
   line-height: 3.5rem;
   flex-wrap: wrap;
   flex-direction: column;
@@ -447,6 +481,11 @@ footer .nav-bar li {
   align-items: center;
   padding-top: 2rem;
   margin: 0 0 0 6rem;
+}
+@media (max-width: 1200px) {
+  .about-top-container .about-top-content {
+    margin: 0;
+  }
 }
 .about-top-container .about-top-content h1 {
   font-size: 3rem;
@@ -456,6 +495,11 @@ footer .nav-bar li {
   font-size: 2rem;
   padding: 2rem 0 0 2rem;
   text-shadow: 0.1rem 0.1rem black;
+}
+@media (max-width: 752px) {
+  .about-top-container .about-top-content p {
+    padding: 2rem 0 0 0;
+  }
 }
 .about-top-container .about-top-content button {
   align-self: center;
@@ -483,6 +527,12 @@ footer .nav-bar li {
   padding: 0 15rem 0 15rem;
   margin: 10rem 0;
 }
+@media (max-width: 1100px) {
+  .about-bot-container {
+    width: 100%;
+    justify-content: center;
+  }
+}
 .about-bot-container .team-bios {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -492,8 +542,15 @@ footer .nav-bar li {
   align-self: flex-end;
   justify-content: flex-start;
   height: 225rem;
-  width: 100rem;
+  width: 100%;
+  max-width: 100rem;
   margin-right: 10rem;
+}
+@media (max-width: 1100px) {
+  .about-bot-container .team-bios {
+    display: none;
+    width: 0%;
+  }
 }
 .about-bot-container .team-bios .team-bio p {
   display: -webkit-box;
@@ -520,6 +577,11 @@ footer .nav-bar li {
   margin-left: 5rem;
   width: 25rem;
 }
+@media (max-width: 1100px) {
+  .about-bot-container .about-bot-content {
+    margin: 0;
+  }
+}
 .about-bot-container .about-bot-content .team-member {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -531,6 +593,7 @@ footer .nav-bar li {
   height: 20rem;
   width: 25rem;
   background-color: lightgrey;
+  color: black;
 }
 .about-bot-container .about-bot-content .team-member img {
   height: 15rem;
@@ -556,6 +619,7 @@ footer .nav-bar li {
   width: 15rem;
 }
 .about-bot-container .about-bot-content ul .icons {
+  cursor: pointer;
   color: #55596d;
   margin: 2rem 0 8rem 0;
 }
