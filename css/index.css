@@ -245,7 +245,7 @@ footer .foot-bar .nav-bar {
 @media (max-width: 500px) {
   footer .foot-bar .nav-bar {
     max-width: 100%;
-    padding: 0rem;
+    padding: 2rem 0 0 0;
     order: 1;
   }
 }
