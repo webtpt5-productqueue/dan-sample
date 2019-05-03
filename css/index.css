@@ -280,9 +280,9 @@ footer .copyright {
     justify-content: center;
   }
 }
-@media (max-width: 667px) {
+@media (max-width: 667px) and "(orientation : landscape)" {
   .top-container {
-    height: 80rem;
+    height: 100vh;
   }
 }
 .top-container .top-content {
@@ -307,7 +307,7 @@ footer .copyright {
     margin: 0;
   }
 }
-@media (max-width: 667px) {
+@media (max-width: 667px) and "(orientation : landscape)" {
   .top-container .top-content {
     padding: 0;
   }
@@ -336,7 +336,7 @@ footer .copyright {
   margin: 3rem 0;
   cursor: pointer;
 }
-@media (max-width: 667px) {
+@media (max-width: 667px) and "(orientation : landscape)" {
   .top-container .top-content button {
     margin: 0;
   }
@@ -720,7 +720,7 @@ footer .copyright {
   width: 15rem;
   margin-bottom: 5rem;
 }
-@media (max-width: 667px) {
+@media (max-width: 667px) and "(orientation : landscape)" {
   .about-bot-container .about-bot-content ul {
     margin-bottom: 12rem;
   }
