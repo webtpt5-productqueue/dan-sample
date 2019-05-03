@@ -282,7 +282,7 @@ footer .copyright {
 }
 @media (max-width: 667px) {
   .top-container {
-    height: 100vh;
+    height: 100rem;
   }
 }
 .top-container .top-content {
