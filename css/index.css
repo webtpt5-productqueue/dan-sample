@@ -707,7 +707,7 @@ footer .copyright {
 }
 @media (max-width: 667px) {
   .about-bot-container .about-bot-content ul {
-    height: 10rem;
+    margin-bottom: 10rem;
   }
 }
 .about-bot-container .about-bot-content ul .icons {
