@@ -217,6 +217,7 @@ footer .foot-bar {
   }
 }
 footer .foot-bar .product-queue-logo {
+  padding-left: 3rem;
   width: 100%;
 }
 @media (max-width: 500px) {
@@ -405,7 +406,10 @@ footer .copyright {
   margin: 7rem;
   text-align: center;
 }
-@media (max-width: 752px) {
+@media (max-width: 768px) and (max-height: 1024px) {
+  .bot-container .bot-content .customer-title {
+    padding-bottom: 10rem;
+  }
 }
 @media (max-width: 500px) {
   .bot-container .bot-content .customer-title {
@@ -450,6 +454,11 @@ footer .copyright {
     max-width: 36rem;
   }
 }
+@media (max-width: 768px) and (max-height: 1024px) {
+  .bot-container .bot-content .customers .customer-quotes .selected .quote {
+    margin-bottom: 10rem;
+  }
+}
 .bot-container .bot-content .customers .customer-quotes .selected .quote p {
   line-height: 2.5rem;
   padding: 0 5rem;
@@ -481,6 +490,11 @@ footer .copyright {
   height: auto;
   width: 100%;
   padding-top: 3rem;
+}
+@media (max-width: 768px) and (max-height: 1024px) {
+  .bot-container .bot-content .customers .customer-quotes .customer-links {
+    padding: 0;
+  }
 }
 .bot-container .bot-content .customers .customer-quotes .customer-links .customer img {
   height: 10rem;
@@ -567,7 +581,7 @@ footer .copyright {
   padding: 2rem 0 0 2rem;
   text-shadow: 0.1rem 0.1rem black;
 }
-@media (max-width: 752px) {
+@media (max-width: 768px) and (max-height: 1024px) {
   .about-top-container .about-top-content p {
     padding: 2rem 0 0 0;
   }
@@ -668,7 +682,7 @@ footer .copyright {
 }
 .about-bot-container .about-bot-content .team-member img {
   height: 15rem;
-  width: 15rem;
+  width: auto;
   border-radius: 20rem;
   margin-bottom: 2rem;
 }
@@ -687,7 +701,19 @@ footer .copyright {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  height: 5rem;
   width: 15rem;
+  margin-bottom: 5rem;
+}
+@media (max-width: 667px) {
+  .about-bot-container .about-bot-content ul {
+    margin-bottom: 12rem;
+  }
+}
+@media (max-device-width : 1024px) {
+  .about-bot-container .about-bot-content ul {
+    margin-bottom: 12rem;
+  }
 }
 .about-bot-container .about-bot-content ul .icons {
   cursor: pointer;

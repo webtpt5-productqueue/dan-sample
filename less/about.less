@@ -139,9 +139,10 @@
             background-color: lightgrey;
             color: black;
 
+            //Set width to auto to prevent images from 'squishing'
             img {
                 height: 15rem;
-                width: 15rem;
+                width: auto;
                 border-radius: 20rem;
                 margin-bottom: 2rem;
             }
@@ -161,7 +162,18 @@
             .flex-prop;
             flex-direction: row;
             justify-content: space-around;
+            height: 5rem;
             width: 15rem;
+            margin-bottom: 5rem;
+
+            // fixing bug with bio cards 
+            @media @iphone7 {
+                margin-bottom: 12rem;
+            }
+
+            @media @ipad-pro {
+                margin-bottom: 12rem;
+            }
 
             .icons {
                 cursor: pointer;
