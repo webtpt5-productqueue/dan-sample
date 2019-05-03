@@ -280,11 +280,6 @@ footer .copyright {
     justify-content: center;
   }
 }
-@media (max-width: 667px) {
-  .top-container {
-    height: 100rem;
-  }
-}
 .top-container .top-content {
   display: -webkit-box;
   display: -ms-flexbox;
