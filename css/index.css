@@ -421,7 +421,7 @@ footer .copyright {
   margin: 7rem;
   text-align: center;
 }
-@media (max-width: 768px) and (max-height: 1024px) {
+@media (max-width: 768px) {
   .bot-container .bot-content .customer-title {
     padding-bottom: 10rem;
   }
@@ -469,7 +469,7 @@ footer .copyright {
     max-width: 36rem;
   }
 }
-@media (max-width: 768px) and (max-height: 1024px) {
+@media (max-width: 768px) {
   .bot-container .bot-content .customers .customer-quotes .selected .quote {
     margin-bottom: 10rem;
   }
@@ -506,7 +506,7 @@ footer .copyright {
   width: 100%;
   padding-top: 3rem;
 }
-@media (max-width: 768px) and (max-height: 1024px) {
+@media (max-width: 768px) {
   .bot-container .bot-content .customers .customer-quotes .customer-links {
     padding: 0;
   }
@@ -596,7 +596,7 @@ footer .copyright {
   padding: 2rem 0 0 2rem;
   text-shadow: 0.1rem 0.1rem black;
 }
-@media (max-width: 768px) and (max-height: 1024px) {
+@media (max-width: 768px) {
   .about-top-container .about-top-content p {
     padding: 2rem 0 0 0;
   }
