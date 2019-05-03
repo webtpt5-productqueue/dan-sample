@@ -222,7 +222,7 @@ footer .foot-bar .product-queue-logo {
 }
 @media (max-width: 500px) {
   footer .foot-bar .product-queue-logo {
-    padding-top: 2rem;
+    padding: 2rem 0 0 0;
     text-align: center;
     width: 100%;
     order: 2;
@@ -246,7 +246,7 @@ footer .foot-bar .nav-bar {
 @media (max-width: 500px) {
   footer .foot-bar .nav-bar {
     max-width: 100%;
-    padding: 2rem 0 0 0;
+    padding: 3rem 0 0 0;
     order: 1;
   }
 }
