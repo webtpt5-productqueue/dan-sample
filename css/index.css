@@ -705,6 +705,11 @@ footer .copyright {
   width: 15rem;
   margin-bottom: 5rem;
 }
+@media (max-width: 667px) {
+  .about-bot-container .about-bot-content ul {
+    height: 10rem;
+  }
+}
 .about-bot-container .about-bot-content ul .icons {
   cursor: pointer;
   color: #55596d;
