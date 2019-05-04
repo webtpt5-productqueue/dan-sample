@@ -210,7 +210,8 @@ footer {
 }
 @media (max-height: 420px) {
   footer {
-    height: 8rem;
+    padding-top: 5rem;
+    height: 15rem;
   }
 }
 footer .foot-bar {
