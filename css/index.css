@@ -471,6 +471,7 @@ footer .copyright {
 @media (max-height: 420px) {
   .bot-container .bot-content .customer-title {
     margin: 0;
+    height: 10rem;
   }
 }
 .bot-container .bot-content .customers {
