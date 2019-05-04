@@ -309,9 +309,6 @@ footer .copyright {
   }
 }
 @media (max-width: 670px) {
-  .top-container {
-    height: 120vh;
-  }
 }
 .top-container .top-content {
   display: -webkit-box;
@@ -770,7 +767,7 @@ footer .copyright {
     margin-bottom: 12rem;
   }
 }
-@media (max-device-width : 1024px) {
+@media (max-width : 1024px) {
   .about-bot-container .about-bot-content ul {
     margin-bottom: 12rem;
   }
