@@ -199,6 +199,7 @@ a {
   color: white;
 }
 footer {
+  margin-top: 5rem;
   color: white;
 }
 @media (max-width: 667px) {
@@ -405,7 +406,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60rem;
+  height: 50rem;
   width: 100%;
 }
 .bot-container .bot-content {
