@@ -518,7 +518,7 @@ footer .copyright {
 }
 @media (max-height: 420px) {
   .bot-container .bot-content .customers .customer-quotes .selected .quote {
-    padding-top: 5rem;
+    padding-top: 15rem;
   }
 }
 .bot-container .bot-content .customers .customer-quotes .selected .quote p {
