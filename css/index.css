@@ -272,7 +272,7 @@ footer .copyright {
   background-repeat: no-repeat;
   background-position: 115% 50%;
   background-size: 65% 80%;
-  height: calc(100vh - 8rem);
+  height: 60rem;
   width: 100%;
   font-weight: bold;
   color: white;
@@ -284,11 +284,6 @@ footer .copyright {
   .top-container {
     background-image: none;
     justify-content: center;
-  }
-}
-@media (max-width: 768px) and (max-height: 1024px) {
-  .top-container {
-    height: 60rem;
   }
 }
 .top-container .top-content {
@@ -444,7 +439,7 @@ footer .copyright {
 }
 @media (max-width: 670px) {
   .bot-container .bot-content .customer-title {
-    padding: 0 0 1.75rem 0;
+    padding: 0 0 2rem 0;
     margin: 0;
   }
 }
