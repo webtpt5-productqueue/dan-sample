@@ -205,6 +205,7 @@ footer {
 @media (max-width: 670px) {
   footer {
     margin-top: 0;
+    height: 8rem;
   }
 }
 footer .foot-bar {
@@ -222,6 +223,11 @@ footer .foot-bar {
     align-items: baseline;
   }
 }
+@media (max-width: 670px) {
+  footer .foot-bar {
+    margin: 0;
+  }
+}
 footer .foot-bar .product-queue-logo {
   padding-left: 3rem;
   width: 100%;
@@ -232,6 +238,11 @@ footer .foot-bar .product-queue-logo {
     text-align: center;
     width: 100%;
     order: 2;
+  }
+}
+@media (max-width: 670px) {
+  footer .foot-bar .product-queue-logo {
+    padding: 0;
   }
 }
 footer .foot-bar .product-queue-logo .logo-img {
@@ -256,12 +267,22 @@ footer .foot-bar .nav-bar {
     order: 1;
   }
 }
+@media (max-width: 670px) {
+  footer .foot-bar .nav-bar {
+    padding: 0;
+  }
+}
 footer .foot-bar .nav-bar li {
   color: white;
 }
 footer .copyright {
   padding-bottom: 2rem;
   text-align: center;
+}
+@media (max-width: 670px) {
+  footer .copyright {
+    padding: 0;
+  }
 }
 .top-container {
   display: -webkit-box;
@@ -401,7 +422,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40rem;
+  height: 50rem;
   width: 100%;
 }
 .bot-container .bot-content {
@@ -526,7 +547,7 @@ footer .copyright {
 @media (max-width: 670px) {
   .bot-container .bot-content .customers .customer-quotes .customer-links {
     align-self: center;
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
 }
 .bot-container .bot-content .customers .customer-quotes .customer-links .customer img {
