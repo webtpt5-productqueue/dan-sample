@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-position: 115% 50%;
     background-size: 65% 80%;                                                                                                                                                                            
-    height: calc(100vh - 8rem);
+    height: calc(100vh - 8rem;);
     width: 100%;
     font-weight: bold;
     color: white;
@@ -18,6 +18,11 @@
         background-image: none;
         justify-content: center;
     }
+
+    @media @iphone7-height {
+        height: 105vh;
+    }
+
 
     .top-content {
         .flex-prop;
@@ -35,6 +40,10 @@
         
         @media @small-desktop {
             margin: 0;
+        }
+
+        @media @iphone7 {
+            padding: 0;
         }
 
         h1 {
@@ -62,7 +71,12 @@
             font-weight: bold;
             margin: 3rem 0;
             cursor: pointer;
+
+            @media @iphone7 {
+                // margin: 0;
+            }
           }
+
     }
 }
 
@@ -124,8 +138,13 @@
     .flex-prop;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 50rem;
     width: 100%;
+
+    @media @iphone7-height {
+        height: 100vh;   
+    }
+
 
     .bot-content {
         .flex-prop;
@@ -149,6 +168,16 @@
             @media @mobile {
                 padding: 0rem;
             }
+
+            @media @iphone7 {
+                padding: 0 0 2rem 0;
+                margin: 0;
+            }
+
+            @media @iphone7-height {
+                padding: 2rem 0 2rem 0;
+                margin: 0;
+            }
         }
 
         .customers {
@@ -158,7 +187,6 @@
             align-items: center;
 
             .customer-quotes {
-                
 
                 .quote-item {
                     display: none;
@@ -186,6 +214,14 @@
 
                         @media @small-tablet {
                             margin-bottom: 10rem;
+                        }
+
+                        @media @iphone7 {
+                            margin: 5rem;
+                        }
+
+                        @media @iphone7-height {
+                            margin-bottom: 2rem;
                         }
                 
                         p {
@@ -225,6 +261,11 @@
                     padding: 0;
             }
 
+                @media @iphone7 {
+                    align-self: center;
+                    padding-top: 2rem;
+                }
+
                 .customer{
                 
                     img {
@@ -240,27 +281,6 @@
             }
         }
     }
-
-        h2 {
-            align-self: center;
-            font-size: 3rem;
-        }
-
-        button {
-            align-self: center;
-            width: 20rem;
-            background-color: #002070;
-            border: none;
-            border-radius: 100rem;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            font-size: 1.6rem;
-            font-weight: bold;
-            margin: 2rem;
-            cursor: pointer;
-        }
     }
 }
 

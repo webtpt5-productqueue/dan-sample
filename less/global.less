@@ -79,7 +79,19 @@ a {
 // Footer Section
 
 footer {
+    margin-top: 5rem;
     color: white;
+
+    @media @iphone7 {
+        margin-top: 0;
+        height: 19rem;
+    }
+
+    @media @iphone7-height {
+        padding-top: 4rem;
+        height: 15rem;
+        margin: 0;
+    }
 
     .foot-bar {
         .flex-prop;
@@ -91,17 +103,29 @@ footer {
             justify-content: center;
             align-items: baseline;
         }
-    
+        
+         @media @iphone7 {
+            padding-top: 5rem;
+            margin: 0;
+         }
+
+         @media @iphone7-height {
+             padding: 0;
+         }
 
     .product-queue-logo{
         padding-left: 3rem; 
         width: 100%;
 
         @media @mobile {
-            padding-top: 2rem; 
+            padding: 2rem 0 0 0; 
             text-align: center;
             width: 100%;
             order: 2;
+        }
+
+        @media @iphone7 {
+            padding: 0;
         }
 
         .logo-img {
@@ -120,8 +144,12 @@ footer {
 
             @media @mobile {
                 max-width: 100%;
-                padding: 0rem;
+                padding: 3rem 0 0 0;
                 order: 1;
+            }
+
+            @media @iphone7 {
+                padding: 0 0 2rem 0;
             }
 
             li {
@@ -132,6 +160,14 @@ footer {
         .copyright {
             padding-bottom: 2rem; 
             text-align: center;
+
+            @media @iphone7 {
+                padding-top: 1rem;
+            }
+
+            @media @iphone7-height {
+
+            }
         }
 }
 

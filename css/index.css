@@ -199,7 +199,21 @@ a {
   color: white;
 }
 footer {
+  margin-top: 5rem;
   color: white;
+}
+@media (max-width: 670px) {
+  footer {
+    margin-top: 0;
+    height: 19rem;
+  }
+}
+@media (max-height: 420px) {
+  footer {
+    padding-top: 4rem;
+    height: 15rem;
+    margin: 0;
+  }
 }
 footer .foot-bar {
   display: -webkit-box;
@@ -216,16 +230,32 @@ footer .foot-bar {
     align-items: baseline;
   }
 }
+@media (max-width: 670px) {
+  footer .foot-bar {
+    padding-top: 5rem;
+    margin: 0;
+  }
+}
+@media (max-height: 420px) {
+  footer .foot-bar {
+    padding: 0;
+  }
+}
 footer .foot-bar .product-queue-logo {
   padding-left: 3rem;
   width: 100%;
 }
 @media (max-width: 500px) {
   footer .foot-bar .product-queue-logo {
-    padding-top: 2rem;
+    padding: 2rem 0 0 0;
     text-align: center;
     width: 100%;
     order: 2;
+  }
+}
+@media (max-width: 670px) {
+  footer .foot-bar .product-queue-logo {
+    padding: 0;
   }
 }
 footer .foot-bar .product-queue-logo .logo-img {
@@ -246,8 +276,13 @@ footer .foot-bar .nav-bar {
 @media (max-width: 500px) {
   footer .foot-bar .nav-bar {
     max-width: 100%;
-    padding: 0rem;
+    padding: 3rem 0 0 0;
     order: 1;
+  }
+}
+@media (max-width: 670px) {
+  footer .foot-bar .nav-bar {
+    padding: 0 0 2rem 0;
   }
 }
 footer .foot-bar .nav-bar li {
@@ -256,6 +291,11 @@ footer .foot-bar .nav-bar li {
 footer .copyright {
   padding-bottom: 2rem;
   text-align: center;
+}
+@media (max-width: 670px) {
+  footer .copyright {
+    padding-top: 1rem;
+  }
 }
 .top-container {
   display: -webkit-box;
@@ -280,6 +320,11 @@ footer .copyright {
     justify-content: center;
   }
 }
+@media (max-height: 420px) {
+  .top-container {
+    height: 105vh;
+  }
+}
 .top-container .top-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -300,6 +345,11 @@ footer .copyright {
 @media (max-width: 1200px) {
   .top-container .top-content {
     margin: 0;
+  }
+}
+@media (max-width: 670px) {
+  .top-container .top-content {
+    padding: 0;
   }
 }
 .top-container .top-content h1 {
@@ -325,6 +375,8 @@ footer .copyright {
   font-weight: bold;
   margin: 3rem 0;
   cursor: pointer;
+}
+@media (max-width: 670px) {
 }
 .mid-container {
   display: -webkit-box;
@@ -385,8 +437,13 @@ footer .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 50rem;
   width: 100%;
+}
+@media (max-height: 420px) {
+  .bot-container {
+    height: 100vh;
+  }
 }
 .bot-container .bot-content {
   display: -webkit-box;
@@ -414,6 +471,18 @@ footer .copyright {
 @media (max-width: 500px) {
   .bot-container .bot-content .customer-title {
     padding: 0rem;
+  }
+}
+@media (max-width: 670px) {
+  .bot-container .bot-content .customer-title {
+    padding: 0 0 2rem 0;
+    margin: 0;
+  }
+}
+@media (max-height: 420px) {
+  .bot-container .bot-content .customer-title {
+    padding: 2rem 0 2rem 0;
+    margin: 0;
   }
 }
 .bot-container .bot-content .customers {
@@ -459,6 +528,16 @@ footer .copyright {
     margin-bottom: 10rem;
   }
 }
+@media (max-width: 670px) {
+  .bot-container .bot-content .customers .customer-quotes .selected .quote {
+    margin: 5rem;
+  }
+}
+@media (max-height: 420px) {
+  .bot-container .bot-content .customers .customer-quotes .selected .quote {
+    margin-bottom: 2rem;
+  }
+}
 .bot-container .bot-content .customers .customer-quotes .selected .quote p {
   line-height: 2.5rem;
   padding: 0 5rem;
@@ -496,6 +575,12 @@ footer .copyright {
     padding: 0;
   }
 }
+@media (max-width: 670px) {
+  .bot-container .bot-content .customers .customer-quotes .customer-links {
+    align-self: center;
+    padding-top: 2rem;
+  }
+}
 .bot-container .bot-content .customers .customer-quotes .customer-links .customer img {
   height: 10rem;
   width: 10rem;
@@ -506,25 +591,6 @@ footer .copyright {
     height: 8rem;
     width: 8rem;
   }
-}
-.bot-container .bot-content .customers h2 {
-  align-self: center;
-  font-size: 3rem;
-}
-.bot-container .bot-content .customers button {
-  align-self: center;
-  width: 20rem;
-  background-color: #002070;
-  border: none;
-  border-radius: 100rem;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 1.6rem;
-  font-weight: bold;
-  margin: 2rem;
-  cursor: pointer;
 }
 .about-top-container {
   display: -webkit-box;
@@ -704,6 +770,16 @@ footer .copyright {
   height: 5rem;
   width: 15rem;
   margin-bottom: 5rem;
+}
+@media (max-width: 670px) {
+  .about-bot-container .about-bot-content ul {
+    margin-bottom: 12rem;
+  }
+}
+@media (max-width : 1024px) {
+  .about-bot-container .about-bot-content ul {
+    margin-bottom: 12rem;
+  }
 }
 .about-bot-container .about-bot-content ul .icons {
   cursor: pointer;
