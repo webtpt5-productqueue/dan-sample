@@ -210,7 +210,7 @@ footer {
 }
 @media (max-height: 420px) {
   footer {
-    padding-top: 5rem;
+    padding-top: 4rem;
     height: 15rem;
   }
 }
@@ -558,7 +558,7 @@ footer .copyright {
 }
 @media (max-height: 420px) {
   .bot-container .bot-content .customers .customer-quotes .customer-links {
-    padding-bottom: 15rem;
+    padding: 0 0 17rem 0;
   }
 }
 .bot-container .bot-content .customers .customer-quotes .customer-links .customer img {
