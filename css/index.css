@@ -271,7 +271,7 @@ footer .copyright {
   background-repeat: no-repeat;
   background-position: 115% 50%;
   background-size: 65% 80%;
-  height: calc(100vh - 8rem);
+  height: 60rem;
   width: 100%;
   font-weight: bold;
   color: white;
@@ -405,7 +405,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 60rem;
   width: 100%;
 }
 .bot-container .bot-content {
