@@ -201,6 +201,11 @@ a {
 footer {
   color: white;
 }
+@media (max-width: 667px) {
+  footer {
+    height: 40rem;
+  }
+}
 footer .foot-bar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -266,7 +271,7 @@ footer .copyright {
   background-repeat: no-repeat;
   background-position: 115% 50%;
   background-size: 65% 80%;
-  height: 60rem;
+  height: calc(100vh - 8rem);
   width: 100%;
   font-weight: bold;
   color: white;
@@ -278,6 +283,11 @@ footer .copyright {
   .top-container {
     background-image: none;
     justify-content: center;
+  }
+}
+@media (max-width: 667px) {
+  .top-container {
+    height: 60rem;
   }
 }
 .top-container .top-content {
