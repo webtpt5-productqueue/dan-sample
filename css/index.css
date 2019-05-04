@@ -314,7 +314,10 @@ footer .copyright {
     justify-content: center;
   }
 }
-@media (max-width: 670px) {
+@media (max-height: 420px) {
+  .top-container {
+    height: 110vh;
+  }
 }
 .top-container .top-content {
   display: -webkit-box;
@@ -428,7 +431,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 50rem;
   width: 100%;
 }
 .bot-container .bot-content {
