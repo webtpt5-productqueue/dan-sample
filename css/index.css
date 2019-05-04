@@ -316,7 +316,7 @@ footer .copyright {
 }
 @media (max-height: 420px) {
   .top-container {
-    height: 110vh;
+    height: 105vh;
   }
 }
 .top-container .top-content {
@@ -514,6 +514,11 @@ footer .copyright {
 @media (max-width: 670px) {
   .bot-container .bot-content .customers .customer-quotes .selected .quote {
     margin: 5rem;
+  }
+}
+@media (max-height: 420px) {
+  .bot-container .bot-content .customers .customer-quotes .selected .quote {
+    padding-top: 5rem;
   }
 }
 .bot-container .bot-content .customers .customer-quotes .selected .quote p {
