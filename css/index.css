@@ -517,6 +517,11 @@ footer .copyright {
     padding: 0;
   }
 }
+@media (max-width: 667px) {
+  .bot-container .bot-content .customers .customer-quotes .customer-links {
+    padding: 3rem 0 5rem 0;
+  }
+}
 .bot-container .bot-content .customers .customer-quotes .customer-links .customer img {
   height: 10rem;
   width: 10rem;
