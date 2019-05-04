@@ -519,7 +519,7 @@ footer .copyright {
 }
 @media (max-width: 667px) {
   .bot-container .bot-content .customers .customer-quotes .customer-links {
-    padding: 3rem 0 5rem 0;
+    align-self: center;
   }
 }
 .bot-container .bot-content .customers .customer-quotes .customer-links .customer img {
