@@ -205,7 +205,7 @@ footer {
 @media (max-width: 670px) {
   footer {
     margin-top: 0;
-    height: 10rem;
+    height: 15rem;
   }
 }
 footer .foot-bar {
@@ -225,6 +225,7 @@ footer .foot-bar {
 }
 @media (max-width: 670px) {
   footer .foot-bar {
+    padding-top: 7rem;
     margin: 0;
   }
 }
