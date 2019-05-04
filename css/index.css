@@ -504,7 +504,7 @@ footer .copyright {
 }
 @media (max-width: 670px) {
   .bot-container .bot-content .customers .customer-quotes .selected .quote {
-    margin: 0;
+    margin: 5rem;
   }
 }
 .bot-container .bot-content .customers .customer-quotes .selected .quote p {
@@ -560,25 +560,6 @@ footer .copyright {
     height: 8rem;
     width: 8rem;
   }
-}
-.bot-container .bot-content .customers h2 {
-  align-self: center;
-  font-size: 3rem;
-}
-.bot-container .bot-content .customers button {
-  align-self: center;
-  width: 20rem;
-  background-color: #002070;
-  border: none;
-  border-radius: 100rem;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 1.6rem;
-  font-weight: bold;
-  margin: 2rem;
-  cursor: pointer;
 }
 .about-top-container {
   display: -webkit-box;
