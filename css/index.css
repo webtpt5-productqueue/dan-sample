@@ -225,7 +225,7 @@ footer .foot-bar {
 }
 @media (max-width: 670px) {
   footer .foot-bar {
-    padding-top: 7rem;
+    padding-top: 5rem;
     margin: 0;
   }
 }
@@ -282,7 +282,7 @@ footer .copyright {
 }
 @media (max-width: 670px) {
   footer .copyright {
-    padding: 0;
+    padding-top: 1rem;
   }
 }
 .top-container {
