@@ -286,7 +286,7 @@ footer .copyright {
     justify-content: center;
   }
 }
-@media (max-width: 670px) {
+@media (max-width: 768px) and (max-height: 1024px) {
   .top-container {
     height: 60rem;
   }
