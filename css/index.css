@@ -362,9 +362,6 @@ footer .copyright {
   cursor: pointer;
 }
 @media (max-width: 670px) {
-  .top-container .top-content button {
-    margin: 0;
-  }
 }
 .mid-container {
   display: -webkit-box;
