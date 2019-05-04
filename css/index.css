@@ -205,7 +205,7 @@ footer {
 @media (max-width: 670px) {
   footer {
     margin-top: 0;
-    height: 15rem;
+    height: 17rem;
   }
 }
 footer .foot-bar {
@@ -270,7 +270,7 @@ footer .foot-bar .nav-bar {
 }
 @media (max-width: 670px) {
   footer .foot-bar .nav-bar {
-    padding: 0;
+    padding: 0 0 2rem 0;
   }
 }
 footer .foot-bar .nav-bar li {
