@@ -514,7 +514,7 @@ footer .copyright {
 }
 @media (max-width: 667px) {
   .bot-container .bot-content .customers .customer-quotes .customer-links {
-    padding-bottom: 5rem;
+    padding: 0 0 5rem 0;
   }
 }
 .bot-container .bot-content .customers .customer-quotes .customer-links .customer img {
