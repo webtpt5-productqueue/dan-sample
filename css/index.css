@@ -475,6 +475,11 @@ footer .copyright {
     margin-bottom: 10rem;
   }
 }
+@media (max-width: 667px) {
+  .bot-container .bot-content .customers .customer-quotes .selected .quote {
+    margin: 0;
+  }
+}
 .bot-container .bot-content .customers .customer-quotes .selected .quote p {
   line-height: 2.5rem;
   padding: 0 5rem;
@@ -510,11 +515,6 @@ footer .copyright {
 @media (max-width: 768px) and (max-height: 1024px) {
   .bot-container .bot-content .customers .customer-quotes .customer-links {
     padding: 0;
-  }
-}
-@media (max-width: 667px) {
-  .bot-container .bot-content .customers .customer-quotes .customer-links {
-    padding: 0 0 5rem 0;
   }
 }
 .bot-container .bot-content .customers .customer-quotes .customer-links .customer img {
