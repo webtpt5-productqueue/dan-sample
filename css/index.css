@@ -468,6 +468,11 @@ footer .copyright {
     margin: 0;
   }
 }
+@media (max-height: 420px) {
+  .bot-container .bot-content .customer-title {
+    padding-bottom: 2rem;
+  }
+}
 .bot-container .bot-content .customers {
   display: -webkit-box;
   display: -ms-flexbox;
