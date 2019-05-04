@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-position: 115% 50%;
     background-size: 65% 80%;                                                                                                                                                                            
-    height: 60rem;
+    height: calc(100v - 8rem);
     width: 100%;
     font-weight: bold;
     color: white;
@@ -137,8 +137,12 @@
     .flex-prop;
     justify-content: center;
     align-items: center;
-    height: 50rem;
+    height: 90vh;
     width: 100%;
+
+    @media @iphone7 {
+        height: 40rem;
+    }
 
     .bot-content {
         .flex-prop;
@@ -161,6 +165,11 @@
 
             @media @mobile {
                 padding: 0rem;
+            }
+
+            @media @iphone7 {
+                padding: 0 0 1.75rem 0;
+                margin: 0;
             }
         }
 
@@ -244,7 +253,7 @@
 
                 @media @iphone7 {
                     align-self: center;
-                    // padding: 3rem 0 5rem 0;
+                    padding-top: 3rem;
                 }
 
                 .customer{

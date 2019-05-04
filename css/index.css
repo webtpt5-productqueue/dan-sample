@@ -202,6 +202,11 @@ footer {
   margin-top: 5rem;
   color: white;
 }
+@media (max-width: 670px) {
+  footer {
+    margin-top: 0;
+  }
+}
 footer .foot-bar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -267,7 +272,7 @@ footer .copyright {
   background-repeat: no-repeat;
   background-position: 115% 50%;
   background-size: 65% 80%;
-  height: 60rem;
+  height: calc(100v - 8rem);
   width: 100%;
   font-weight: bold;
   color: white;
@@ -281,7 +286,7 @@ footer .copyright {
     justify-content: center;
   }
 }
-@media (max-width: 667px) {
+@media (max-width: 670px) {
   .top-container {
     height: 60rem;
   }
@@ -308,7 +313,7 @@ footer .copyright {
     margin: 0;
   }
 }
-@media (max-width: 667px) {
+@media (max-width: 670px) {
   .top-container .top-content {
     padding: 0;
   }
@@ -337,7 +342,7 @@ footer .copyright {
   margin: 3rem 0;
   cursor: pointer;
 }
-@media (max-width: 667px) {
+@media (max-width: 670px) {
   .top-container .top-content button {
     margin: 0;
   }
@@ -401,8 +406,13 @@ footer .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50rem;
+  height: 90vh;
   width: 100%;
+}
+@media (max-width: 670px) {
+  .bot-container {
+    height: 40rem;
+  }
 }
 .bot-container .bot-content {
   display: -webkit-box;
@@ -430,6 +440,12 @@ footer .copyright {
 @media (max-width: 500px) {
   .bot-container .bot-content .customer-title {
     padding: 0rem;
+  }
+}
+@media (max-width: 670px) {
+  .bot-container .bot-content .customer-title {
+    padding: 0 0 1.75rem 0;
+    margin: 0;
   }
 }
 .bot-container .bot-content .customers {
@@ -475,7 +491,7 @@ footer .copyright {
     margin-bottom: 10rem;
   }
 }
-@media (max-width: 667px) {
+@media (max-width: 670px) {
   .bot-container .bot-content .customers .customer-quotes .selected .quote {
     margin: 0;
   }
@@ -517,9 +533,10 @@ footer .copyright {
     padding: 0;
   }
 }
-@media (max-width: 667px) {
+@media (max-width: 670px) {
   .bot-container .bot-content .customers .customer-quotes .customer-links {
     align-self: center;
+    padding-top: 3rem;
   }
 }
 .bot-container .bot-content .customers .customer-quotes .customer-links .customer img {
@@ -731,7 +748,7 @@ footer .copyright {
   width: 15rem;
   margin-bottom: 5rem;
 }
-@media (max-width: 667px) {
+@media (max-width: 670px) {
   .about-bot-container .about-bot-content ul {
     margin-bottom: 12rem;
   }
