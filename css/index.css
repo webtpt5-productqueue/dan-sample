@@ -202,11 +202,6 @@ footer {
   margin-top: 5rem;
   color: white;
 }
-@media (max-width: 667px) {
-  footer {
-    height: 40rem;
-  }
-}
 footer .foot-bar {
   display: -webkit-box;
   display: -ms-flexbox;
