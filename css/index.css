@@ -208,6 +208,12 @@ footer {
     height: 19rem;
   }
 }
+@media (max-height: 420px) {
+  footer {
+    margin: 0;
+    height: 19rem;
+  }
+}
 footer .foot-bar {
   display: -webkit-box;
   display: -ms-flexbox;
