@@ -401,13 +401,8 @@ footer .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 40rem;
   width: 100%;
-}
-@media (max-width: 670px) {
-  .bot-container {
-    height: 40rem;
-  }
 }
 .bot-container .bot-content {
   display: -webkit-box;
